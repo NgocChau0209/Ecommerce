@@ -1,0 +1,150 @@
+@use './color.scss';
+
+.cation1-dark {
+    @include color.darkText;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: 'Nunito Bold';
+}
+
+.title2-dark {
+    @include color.darkText;
+    font-size: 52px;
+    line-height: 78px;
+    font-family: 'Nunito Bold';
+}
+
+.title3-dark {
+    @include color.darkText;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: 'Nunito Bold';
+}
+
+.body1-dark {
+    @include color.darkText;
+    font-size: 28px;
+    line-height: 34px;
+    font-family: 'Nunito SemiBold';
+}
+
+.body1-light {
+    @include color.lightText;
+    font-size: 29px;
+    line-height: 43px;
+    font-family: 'Nunito Bold';
+}
+
+.body2-button-dark {
+    @include color.darkText;
+    font-size: 25px;
+    line-height: 42px;
+    font-family: 'Nunito SemiBold';
+}
+
+.body3-dark {
+    @include color.darkText;
+    font-size: 23px;
+    line-height: 42px;
+    font-family: 'Nunito SemiBold';
+}
+
+.headline-dark {
+    @include color.darkText;
+    font-size: 29px;
+    line-height: 42px;
+    font-family: 'Nunito Bold';
+}
+
+.title4-dark {
+    @include color.darkText;
+    font-size: 38px;
+    line-height: 52px;
+    font-family: 'Nunito Bold';
+}
+
+.mobile-text-h5 {
+    @include color.mobileText;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'SF Rounded Regular';
+
+}
+
+.mobile-text-h6 {
+    @include color.mobileText;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'SF Rounded Regular';
+
+}
+
+.mobile-text-h2 {
+    @include color.mobileText;
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'SF Rounded Regular';
+}
+
+.tv-h9 {
+    @include color.tvText;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h8 {
+    @include color.tvText;
+    font-size: 25px;
+    line-height: 32px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h7 {
+    @include color.tvText;
+    font-size: 29px;
+    line-height: 36px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h6 {
+    @include color.tvText;
+    font-size: 31px;
+    line-height: 38px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h5 {
+    @include color.tvText;
+    font-size: 38px;
+    line-height: 46px;
+    font-family: 'SF Rounded Regular';
+}
+
+.tv-h4 {
+    @include color.tvText;
+    font-size: 38px;
+    line-height: 46px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h3 {
+    @include color.tvText;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h2 {
+    @include color.tvText;
+    font-size: 57px;
+    line-height: 66px;
+    font-family: 'SF Rounded Medium';
+}
+
+.tv-h1 {
+    @include color.tvText;
+    font-size: 76px;
+    line-height: 96px;
+    font-family: 'SF Rounded Medium';
+}

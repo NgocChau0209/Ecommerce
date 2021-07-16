@@ -1,0 +1,28 @@
+$fill-light:#F4F4F5;
+$brand-primary:#A1B753;
+
+
+//  white
+$white-f2f2f2: #f2f2f2;
+//gray
+$gray-484848:#484848;
+
+//black 
+$black-14142b:#14142B;
+$black-000000:#000000;
+
+@mixin darkText {
+    color: $gray-484848;
+}
+
+@mixin tvText {
+    color: $black-000000;
+}
+
+@mixin mobileText {
+    color: $black-14142b;
+}
+
+@mixin lightText {
+    color: $white-f2f2f2;
+}
